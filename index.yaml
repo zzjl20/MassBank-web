@@ -1,0 +1,46 @@
+apiVersion: v1
+entries:
+  mariadb:
+  - appVersion: 10.1.37
+    created: 2018-11-17T12:09:15.182813725+01:00
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system. MariaDB Server is intended for mission-critical, heavy-load
+      production systems as well as for embedding into mass-deployed software. Highly
+      available MariaDB cluster.
+    digest: e1fbdd4b2f20af56ce25faf020a635a4318cf51b6393aa66e188b6585e40dabe
+    engine: gotpl
+    home: https://mariadb.org
+    icon: https://bitnami.com/assets/stacks/mariadb/img/mariadb-stack-220x234.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    - prometheus
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mariadb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mariadb
+    - https://github.com/prometheus/mysqld_exporter
+    urls:
+    - https://massbank.github.io/MassBank-web/mariadb-5.2.3.tgz
+    version: 5.2.3
+  tomcat:
+  - apiVersion: v1
+    appVersion: "7"
+    created: 2018-11-17T12:09:15.183172432+01:00
+    description: Deploy a basic tomcat application server with sidecar as web archive
+      container
+    digest: 973fe1b2d5a1e781559a6ef79851ab09ef6d64f7264fb1fbf7ed5c4b2868e758
+    home: https://github.com/yahavb
+    icon: http://tomcat.apache.org/res/images/tomcat.png
+    maintainers:
+    - email: ybiran@ananware.systems
+      name: yahavb
+    name: tomcat
+    urls:
+    - https://massbank.github.io/MassBank-web/tomcat-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-11-17T12:09:15.181424566+01:00
