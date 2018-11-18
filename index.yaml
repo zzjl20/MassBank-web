@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   mariadb:
   - appVersion: 10.1.37
-    created: 2018-11-17T12:09:15.182813725+01:00
+    created: 2018-11-18T21:46:03.058967086+01:00
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system. MariaDB Server is intended for mission-critical, heavy-load
       production systems as well as for embedding into mass-deployed software. Highly
@@ -25,12 +25,27 @@ entries:
     - https://github.com/bitnami/bitnami-docker-mariadb
     - https://github.com/prometheus/mysqld_exporter
     urls:
-    - https://massbank.github.io/MassBank-web/mariadb-5.2.3.tgz
+    - mariadb-5.2.3.tgz
     version: 5.2.3
+  massbank:
+  - apiVersion: v1
+    appVersion: "7"
+    created: 2018-11-18T21:46:03.060444641+01:00
+    description: Deploy MassBank using mariaDB and Tomcat sub-charts
+    digest: a27169a5dfd8939a6b48d85ccda07a685f1f49bc7b990a9cc74469d9b8b66101
+    home: https://massbank.eu
+    icon: https://avatars1.githubusercontent.com/u/8543997?s=200&v=4
+    maintainers:
+    - email: sneumann@ipb-halle.de
+      name: Steffen Neumann
+    name: massbank
+    urls:
+    - massbank-0.1.0.tgz
+    version: 0.1.0
   tomcat:
   - apiVersion: v1
     appVersion: "7"
-    created: 2018-11-17T12:09:15.183172432+01:00
+    created: 2018-11-18T21:46:03.06076048+01:00
     description: Deploy a basic tomcat application server with sidecar as web archive
       container
     digest: 973fe1b2d5a1e781559a6ef79851ab09ef6d64f7264fb1fbf7ed5c4b2868e758
@@ -41,6 +56,6 @@ entries:
       name: yahavb
     name: tomcat
     urls:
-    - https://massbank.github.io/MassBank-web/tomcat-0.1.0.tgz
+    - tomcat-0.1.0.tgz
     version: 0.1.0
-generated: 2018-11-17T12:09:15.181424566+01:00
+generated: 2018-11-18T21:46:03.057688285+01:00
