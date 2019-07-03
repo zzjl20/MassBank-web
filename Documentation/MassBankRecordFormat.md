@@ -965,6 +965,7 @@ Chemical Annotation of Peaks with Molecular Formula. Optional and Multiple Line 
 Line 1 defines the record format of the annotation blocks. Contributors freely define the record format by using appropriate terms.
 Line 2 or later：sequence of multiple line annotation blocks.
 The first line of each annotation block should be indented by `space space`. The second or later line in each annotation block should be indented by `space space space space`.
+The annotation should not contain `semicolon (;)`, `ampersand (&)`, `sharp (#)`, `percent (%)`, `single quote (')`,`tilde (~)`, `vertical bar (|)`, `at (@)`.
 
 Example 1: 
 
